@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tentando abrir imagens em diferentes tamanhos em dispositivos diferentes.</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>Audio</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/pingpongball.mp3" type="audio/mpeg">
+        <source src="midia/pingpongball.ogg" type="audio/ogg">
+        <source src="midia/pingpongball.wav" type="audio/wav">
+        <p>
+            Infelizmente seu navegador não reproduz audio. <a href="midia/pingpongball.mp3"></a>
+        </p>
+    </audio>
+</body>
+</html>

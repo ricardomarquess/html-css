@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Splatink';
+    src: url("fonts/Splatink_PERSONAL_USE_ONLY.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Splatink';
+}
