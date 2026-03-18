@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.quadrado {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: azure;
+    width: 250px;
+    height: 250px;
+}
+
+#q1 {
+    background-color: antiquewhite;
+}
+
+#q2 {
+    background-image: linear-gradient(to right, red , tomato , orange);
+}
+
+#q3 {
+    background-image: url('wallpaper002.jpg');
+}
