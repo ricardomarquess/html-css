@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 
 * {
     margin: 0px;
@@ -43,5 +44,76 @@ header {
 }
 
 .link-header:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    font-family: 'Oleo Script', system-ui;
+    font-size: 40px;
+}
+
+.normal-section {
+    background-color: white;
+    width: auto;
+    height: 100%;
+}
+
+.normal-box {
+    text-align: left;
+    padding: 40px;
+}
+
+.normal-box > p {
+    padding-bottom: 35px;
+}
+
+.parallax-section-bug {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+}
+
+.parallax-section-paper{
+    background-image: url(imagens/background002.jpg);
+}
+
+.parallax-box {
+    text-align: left;
+    padding: 40px;
+}
+
+.parallax-text{
+    width: max-content;
+    max-width: fit-content;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.362);
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.title-footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer:hover {
     text-decoration: underline;
 }
