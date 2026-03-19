@@ -1,1 +1,47 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    align-content: center;    
+}
+
+.title-header {
+    font-family: 'Passion One', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: white;
+}
+
+.text-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.link-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.link-header {
+    text-decoration: none;
+}
+
+.link-header:hover {
+    text-decoration: underline;
+}
