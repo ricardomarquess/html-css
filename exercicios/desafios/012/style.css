@@ -78,6 +78,10 @@ main {
 }
 
 .parallax-section-paper{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
     background-image: url(imagens/background002.jpg);
 }
 
