@@ -70,19 +70,13 @@ main {
 }
 
 .parallax-section-bug {
-    background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
     background-size: cover;
-    background-position: center center;
+    background: url(imagens/background001.jpg) center center no-repeat fixed;
 }
 
 .parallax-section-paper{
-    background-repeat: no-repeat;
-    background-attachment: scroll;
     background-size: cover;
-    background-position: center center;
-    background-image: url(imagens/background002.jpg);
+    background: url(imagens/background002.jpg) center center no-repeat fixed;
 }
 
 .parallax-box {
@@ -95,6 +89,7 @@ main {
     max-width: fit-content;
     color: white;
     padding: 20px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.362);
 }
 
