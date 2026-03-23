@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 450px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        caption {
+            border: 1px solid black;
+            font-size: 20px;
+        }
+
+        td {
+            height: 25px;
+        }
+
+        th, tr, td {
+            border: 1px solid black;
+        }
+
+        .destaque {
+            background-color: yellow;
+        }
+
+        .cnome {
+            background-color: antiquewhite;
+        }
+
+        .cg{
+            background-color: azure;
+        }
+
+        .container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela da Aula 13</h1>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="cg" span="2">
+                <col class="cfunc">
+            </colgroup>
+            <caption>
+                Cadastro
+            </caption>
+            <thead>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Função</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana</td>
+                    <td>19</td>
+                    <td>Feminino</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr>
+                    <td>Julia</td>
+                    <td>25</td>
+                    <td>Feminino</td>
+                    <td>Fullstack Dev</td>
+                </tr>
+                <tr>
+                    <td>Ricardo</td>
+                    <td>21</td>
+                    <td>Masculino</td>
+                    <td>Fullstack Dev</td>
+                </tr>
+                <tr>
+                    <td>Fernando</td>
+                    <td>42</td>
+                    <td>Masculino</td>
+                    <td>CEO</td>
+                </tr>
+                <tr>
+                    <td>Rodrigo</td>
+                    <td>36</td>
+                    <td>Masculino</td>
+                    <td>Tech Lead</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>20</td>
+                    <td>Masculino</td>
+                    <td>Frontend Junior</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>21</td>
+                    <td>Feminino</td>
+                    <td>Frontend Junior</td>
+                </tr>
+                <tr>
+                    <td>Kiara</td>
+                    <td>30</td>
+                    <td>Feminino</td>
+                    <td>Frontend Pleno</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>34</td>
+                    <td>Masculino</td>
+                    <td>Frontend Senior</td>
+                </tr>
+                <tr>
+                    <td>Ricardo A.</td>
+                    <td>20</td>
+                    <td>Masculino</td>
+                    <td>Backend Junior</td>
+                </tr>
+                <tr>
+                    <td>Kaique</td>
+                    <td>23</td>
+                    <td>Masculino</td>
+                    <td>Backend Junior</td>
+                </tr>
+                <tr>
+                    <td>Heitor</td>
+                    <td>27</td>
+                    <td>Masculino</td>
+                    <td>Backend Pleno</td>
+                </tr>
+                <tr>
+                    <td>Clara</td>
+                    <td>29</td>
+                    <td>Feminino</td>
+                    <td>Backend Senior</td>
+                </tr>
+                <tr>
+                    <td>Samiri</td>
+                    <td>26</td>
+                    <td>Feminino</td>
+                    <td>Backend Senior</td>
+                </tr>
+                <tr>
+                    <td>Antonio</td>
+                    <td>32</td>
+                    <td>Masculino</td>
+                    <td>Backend Senior</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
