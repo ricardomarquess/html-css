@@ -6,6 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="">
+        <div>
+            <label for="uf">Estado</label>
+            <select name="estado" id="uf">
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="GO">Goiás</option>
+                </optgroup>
+                <optgroup label="Outros">
+                    <option value="PE">Pernambuco</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="jobs">Profissão</label>
+            <input type="text" name="jobs" id="jobs" list="jobslist">
+            <datalist id="jobslist">
+                <option value="Desenvolvedor">
+                <option value="Designer">
+                <option value="Gerente">
+            </datalist>
+        </div>
+        <div>
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="ENVIAR">
+        </div>
+    </form>
 </body>
 </html>
