@@ -1,1 +1,10 @@
 @charset "UTF-8";
+
+.landscape {
+    display: block;
+}
+
+.portrait {
+    display: none;;
+}
+
