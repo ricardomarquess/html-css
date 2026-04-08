@@ -7,11 +7,14 @@
     <style>
         .container {
             border: 2px solid blue;
-            height: 250px;
             display: grid;
-            grid-template: repeat(3, auto) / repeat(3, auto);
-            place-items: start center;
-            place-content: space-between end;
+            grid-template-rows: repeat(3, 80px);
+            grid-template-columns: 100px 10% 2fr 1fr;
+            grid-auto-rows: 80px;
+            grid-auto-columns: 120px;
+            grid-auto-flow: row;
+            place-items: normal normal;
+            place-content: normal normal;
             gap: 10px;    
         }
 
@@ -30,6 +33,9 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
     </div>
 </body>
 </html>
